@@ -56,6 +56,7 @@ jQuery.fn.cookieBubble = function( options ) {
 
     		}
 
+
     		$('.accept-btn').click(function(event) {
 				cookieApp.applyCookie();
 			});
