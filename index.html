@@ -52,12 +52,18 @@
 </head>
 
 <body>
-    <button onclick="document.cookie='cookieBubble=;expires=Wed; 01 Jan 1970'; window.location.reload(); ">destroy cookie</button>
+    <button class="delete-cookie">destroy cookie</button>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="js/cookieBubble.js"></script>
 <script>
     $(document).ready(function(){
         $('.cookieBubble').cookieBubble();
+
+
+            $('.delete-cookie').click(function(event) {
+                document.cookie = "cookieBubble=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+            });
+
     });
 </script>
 
