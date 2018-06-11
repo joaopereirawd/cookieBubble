@@ -23,19 +23,7 @@
     	<script src="dist/cookieBubble.min.js"></script>
         <script>
             $(document).ready(function(){
-                $('.cookieBubble').cookieBubble({
-                    maxAge:30
-                });
-
-                $('.delete-cookie').click(function(event) {
-
-                    var delete_cookie = function(name) {
-                        document.cookie = name + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
-                    };
-
-                    delete_cookie('cookieBubble');
-                });
-
+                $('.cookieBubble').cookieBubble();
             });
         </script>
 
