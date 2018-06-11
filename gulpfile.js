@@ -38,6 +38,7 @@ gulp.task('scripts', function() {
 //Watch for changes 
 gulp.task('watch', function() {
     gulp.watch("scss/**/*.scss", ['sass']);
+    gulp.watch('js/*.js', ['scripts']);
 });
 
 
