@@ -13,16 +13,13 @@
 	    //default settings:
 	    var defaults = {
 	        cookieBubbleName: "cookieBubble",
-	        maxAge:30
+	        maxAge:7
 	   
 	    };
 	    
+
 		var settings = $.extend({
-			'closeButton': 'none',
-			'hideOnClose': true,
-			'secure': false,
-			'path': '/',
-			'domain': ''
+			maxAge:30
 		}, options);
 
 
@@ -60,7 +57,7 @@
 				    }
 				},
 				applyCookie: function(godown) {
-					cookieApp.setCookie(defaults.cookieBubbleName, 'hide', defaults.maxAge); 
+					cookieApp.setCookie(defaults.cookieBubbleName, 'hide', settings.maxAge); 
 					$('.cookieBubble').hide();
 				}
 
@@ -79,4 +76,7 @@
 
 
 })(jQuery);
+
+
+
 
