@@ -1,0 +1,19 @@
+{
+  "name": "cookieBubble",
+  "description": "",
+  "version": "1.0",
+  "author": "João Pereira",
+  "devDependencies": {
+    "autoprefixer": "^8.6.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-minify": "^3.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^4.0.1",
+    "gulp-size": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0"
+  }
+}
