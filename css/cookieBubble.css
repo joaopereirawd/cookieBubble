@@ -1,0 +1,39 @@
+.cookieBubble {
+  position: absolute;
+  width: 400px;
+  min-height: 100px;
+  bottom: 10px;
+  left: 10px;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+  display: none;
+  padding: 20px 15px; }
+  .cookieBubble p {
+    color: #585858;
+    font-size: 18px;
+    margin-top: 0px; }
+  .cookieBubble .accept-btn {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: #fff;
+    background: #8a2ae2;
+    padding: 10px  20px;
+    display: inline-block;
+    border-radius: 2px;
+    font-size: 14px;
+    float: right; }
+
+@-webkit-keyframes animation1 {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes animation1 {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }

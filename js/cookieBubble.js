@@ -5,16 +5,26 @@
  * email: joaopereirawd@gmail.com
  * Licensed MIT 
 *****************************************/
-jQuery.fn.cookieBubble = function( options ) {
- 
-    //default settings:
-    var defaults = {
-        cookieBubbleName: "cookieBubble",
-        maxAge:30
-   
-    };
- 
-    var settings = $.extend( {}, defaults, options );
+(function ($) {
+
+
+	$.fn.cookieBubble = function (options) {
+
+	    //default settings:
+	    var defaults = {
+	        cookieBubbleName: "cookieBubble",
+	        maxAge:30
+	   
+	    };
+	    
+		var settings = $.extend({
+			'closeButton': 'none',
+			'hideOnClose': true,
+			'secure': false,
+			'path': '/',
+			'domain': ''
+		}, options);
+
 
 
     		var cookieApp = {
@@ -50,23 +60,23 @@ jQuery.fn.cookieBubble = function( options ) {
 				    }
 				},
 				applyCookie: function(godown) {
-					cookieApp.setCookie(defaults.cookieBubbleName, true, defaults.maxAge); 
+					cookieApp.setCookie(defaults.cookieBubbleName, 'hide', defaults.maxAge); 
 					$('.cookieBubble').hide();
 				}
 
     		}
 
 
-			
     		$('.accept-btn').click(function(event) {
 				cookieApp.applyCookie();
 			});
 
 
-    return this.each(function() { cookieApp.checkCookie(); });
- 
-};
+			return this.each(function () {
+				cookieApp.checkCookie(); 
+			});
+	};
 
 
-
+})(jQuery);
 
