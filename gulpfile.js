@@ -11,7 +11,7 @@ var uglify          =   require('gulp-uglify');
 // Compile Our Sass
 gulp.task('sass', function() {
     return gulp.src('scss/*.scss')
-    .pipe(sass({errLogToConsole: true}))
+    .pipe(sass({outputStyle:''}).on('error', sass.logError))
     .pipe(autoprefixer('last 2 version'))
     .pipe(size({title: 'css'}))
     .pipe(gulp.dest('css'))
