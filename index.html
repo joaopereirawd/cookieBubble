@@ -1,9 +1,9 @@
 <html>
 <head>
-<title>cookieBubble.js</title>
+<title>cookieBubble</title>
 <style type="text/css" src="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"></style>
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-<link rel="stylesheet" href="../css/cookieBubble.css"></link>
+<link rel="stylesheet" href="dist/cookieBubble.min.css"></link>
 <style>
     body {
         position:relative;
@@ -19,26 +19,22 @@
 </head>
 
     <body>
+        <div class="cookieBubble">
+            <div class="cb-wrapper">
+                <div class="cb-row">
+                    <div class="cb-message">
+                        <span>We use cookies to personalize your experience. By continuing to visit this website you agree to our use of cookies. <a href="#" target="_blank">Learn More</a></span> 
+                        <a href="javascript:void(0)" class="gotit-btn">GOT IT!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    	<script src="js/cookieBubble.js"></script>
+    	<script src="dist/cookieBubble.min.js"></script>
         <script>
             $(document).ready(function(){
                 $('.cookieBubble').cookieBubble();
             });
         </script>
-
-    <div class="cookieBubble">
-        <div class="cb-wrapper">
-            <div class="cb-row">
-                <div class="cb-message">
-                    <span>We use cookies to personalize your experience. By continuing to visit this website you agree to our use of cookies. <a href="#" target="_blank">Learn More</a></span> 
-                    <a href="javascript:void(0)" class="gotit-btn">GOT IT!</a>
-                </div>
-            </div>
-
-        </div>
-
-    	
-    </div>
     </body>
 </html>
