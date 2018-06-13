@@ -3,7 +3,7 @@
 <title>cookieBubble.js</title>
 <style type="text/css" src="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"></style>
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-<link rel="stylesheet" href="dist/cookieBubble.min.css"></link>
+<link rel="stylesheet" href="../css/cookieBubble.css"></link>
 <style>
     body {
         position:relative;
@@ -12,6 +12,7 @@
         background: linear-gradient(to bottom, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         margin:0px;
         padding:0px;
+        height:100%;
         font-family: 'Lato', sans-serif;
     }
 </style>
@@ -19,7 +20,7 @@
 
     <body>
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    	<script src="dist/cookieBubble.min.js"></script>
+    	<script src="js/cookieBubble.js"></script>
         <script>
             $(document).ready(function(){
                 $('.cookieBubble').cookieBubble();
@@ -27,8 +28,17 @@
         </script>
 
     <div class="cookieBubble">
-        <p>We use cookies to personalize your experience. By continuing to visit this website you agree to our use of cookies. <a href="#">Learn More</a></p>
-    	<a href="javascript:void(0)" class="accept-btn">GOT IT!</a>
+        <div class="cb-wrapper">
+            <div class="cb-row">
+                <div class="cb-message">
+                    <span>We use cookies to personalize your experience. By continuing to visit this website you agree to our use of cookies. <a href="#" target="_blank">Learn More</a></span> 
+                    <a href="javascript:void(0)" class="gotit-btn">GOT IT!</a>
+                </div>
+            </div>
+
+        </div>
+
+    	
     </div>
     </body>
 </html>
