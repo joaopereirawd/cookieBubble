@@ -45,7 +45,7 @@ Basic init
 Options | Default |Description | Available Options
 --- | --- | --- | --- 
 cookieMaxAge:    | *'30'*    | Expiring Days| whatever you want
-icon:            | *'cookie_icon_1'* | Chose your cookie icon  | **Available soon**
+icon:            | *'true'* | Chose your cookie icon  | true or false</br>  **More icons is comming 🚀"**
 iconColor:       | *'false'* | specify what the color you want | **Example:**</br> orange', '#ffa500'
 buttonColor:     | *'false'* | specify what the color you want | **Example:**</br>'orange', '#ffa500'
 buttonTextColor: | *'false'* | specify what the color you want  | **Example:**</br>'white', '#ffffff'
