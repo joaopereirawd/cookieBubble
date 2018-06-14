@@ -41,5 +41,15 @@ Basic init
 </script>
 ```
 
+## Options 
+Options | Default |Description | Available Options
+--- | --- | --- | --- 
+cookieMaxAge:    | *'30'*    | Expiring Days| whatever you want
+icon:            | *'cookie_icon_1'* | Chose your cookie icon  | **Available soon**
+iconColor:       | *'false'* | specify what the color you want | **Example:**</br> orange', '#ffa500'
+buttonColor:     | *'false'* | specify what the color you want | **Example:**</br>'orange', '#ffa500'
+buttonTextColor: | *'false'* | specify what the color you want  | **Example:**</br>'white', '#ffffff'
+buttonRadius:    | *'false'* | border radius | **Example:**</br> '3px'
+
 
 🔜🔜🔜DOCUMENTATION IN PROGRESS 🔜🔜🔜
