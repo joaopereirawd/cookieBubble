@@ -44,11 +44,28 @@ Basic init
 </script>
 ```
 
+Advanced init
+```js
+<script>
+    $(document).ready(function(){
+        $('.cookieBubble').cookieBubble(
+            {
+               cookieMaxAge:7, 
+               iconColor:'#ffa500', 
+               buttonColor: '#000',
+               buttonRadius:'3px'
+            }
+        );
+    });
+</script>
+```
+
+
 ## Options 
 Options | Default |Description | Available Options
 --- | --- | --- | --- 
-cookieMaxAge:    | *'30'*    | Expiring Days| whatever you want
-icon:            | *'true'* | Chose your cookie icon  | true or false</br>  **More icons is comming 🚀"**
+cookieMaxAge:    | *30*      | Expiring Days| whatever you want
+icon:            | *'true'*  | Chose your cookie icon  | true or false</br>  **More icons is comming 🚀**
 iconColor:       | *'false'* | specify what the color you want | **Example:**</br> orange', '#ffa500'
 buttonColor:     | *'false'* | specify what the color you want | **Example:**</br>'orange', '#ffa500'
 buttonTextColor: | *'false'* | specify what the color you want  | **Example:**</br>'white', '#ffffff'
