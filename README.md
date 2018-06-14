@@ -65,11 +65,12 @@ Advanced init
 Options | Default |Description | Available Options
 --- | --- | --- | --- 
 cookieMaxAge:    | *30*      | Expiring Days| whatever you want
-icon:            | *'true'*  | Chose your cookie icon  | true or false</br>  **More icons is comming 🚀**
-iconColor:       | *'false'* | specify what the color you want | **Example:**</br> orange', '#ffa500'
-buttonColor:     | *'false'* | specify what the color you want | **Example:**</br>'orange', '#ffa500'
-buttonTextColor: | *'false'* | specify what the color you want  | **Example:**</br>'white', '#ffffff'
-buttonRadius:    | *'false'* | border radius | **Example:**</br> '3px'
+icon:            | *true*  | Chose your cookie icon  | true or false</br>  **More icons is comming 🚀**
+iconColor:       | *false* | specify what the color you want | **Example:**</br> orange', '#ffa500'
+buttonColor:     | *false* | specify what the color you want | **Example:**</br>'orange', '#ffa500'
+buttonTextColor: | *false* | specify what the color you want  | **Example:**</br>'white', '#ffffff'
+buttonRadius:    | *false* | border radius | **Example:**</br> '3px'
 
+You can also change completly the style of cookieBubble directly in The SCSS file or css! You just need to be creative 😋
 
 🔜🔜🔜DOCUMENTATION IN PROGRESS 🔜🔜🔜
