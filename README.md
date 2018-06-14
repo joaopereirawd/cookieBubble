@@ -1,3 +1,6 @@
+<img src="https://github.com/joaopereirawd/cookieBubble/blob/master/img/cookieBubble.gif">
+
+
 # cookieBubble 🍪
 This is the cookieBubble, a jQuery plugin to fight against the ugly cookie messages.</br>
 <a href="https://joaopereirawd.github.io/cookieBubble/" target="blank">Check out the Demo</a>
