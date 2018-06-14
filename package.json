@@ -1,12 +1,12 @@
 {
   "name": "cookie-bubble",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is the cookieBubble, a jQuery plugin to fight against the ugly cookie messages.",
   "keywords": [
     "cookie",
     "handsome-cookie",
     "cookie-plugin"
-  ],  
+  ],
   "author": "João Pereira | joaopereirawd@gmail.com",
   "license": "MIT",
   "homepage": "https://github.com/joaopereirawd/cookieBubble",
