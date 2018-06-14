@@ -13,7 +13,7 @@
 
 			//Defaults
 			var settings = $.extend({	
-				icon:'cookie_icon_1',
+				icon:true,
 				iconColor:false,
 				buttonColor:false,
 				buttonTextColor:false,
