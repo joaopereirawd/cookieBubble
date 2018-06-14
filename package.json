@@ -1,6 +1,6 @@
 {
   "name": "cookie-bubble",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is the cookieBubble, a jQuery plugin to fight against the ugly cookie messages.",
   "keywords": [
     "cookie",
