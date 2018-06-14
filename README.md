@@ -1,6 +1,6 @@
 # cookieBubble 🍪
-This is the cookieBubble, a jQuery plugin to fight against the ugly cookie messages.
-
+This is the cookieBubble, a jQuery plugin to fight against the ugly cookie messages.</br>
+<a href="https://joaopereirawd.github.io/cookieBubble/" target="blank">Check out the Demo</a>
 ## Instalation
 ```
 npm i cookie-bubble
@@ -32,7 +32,7 @@ Add this html markup somewhere inside the body tag
 
 ```
 
-Basic Usage
+Basic init
 ```js
 <script>
     $(document).ready(function(){
@@ -40,6 +40,16 @@ Basic Usage
     });
 </script>
 ```
+
+## Options 
+Options | Default |Description | Available Options
+--- | --- | --- | --- 
+cookieMaxAge:    | *'30'*    | Expiring Days| whatever you want
+icon:            | *'cookie_icon_1'* | Chose your cookie icon  | **Available soon**
+iconColor:       | *'false'* | specify what the color you want | **Example:**</br> orange', '#ffa500'
+buttonColor:     | *'false'* | specify what the color you want | **Example:**</br>'orange', '#ffa500'
+buttonTextColor: | *'false'* | specify what the color you want  | **Example:**</br>'white', '#ffffff'
+buttonRadius:    | *'false'* | border radius | **Example:**</br> '3px'
 
 
 🔜🔜🔜DOCUMENTATION IN PROGRESS 🔜🔜🔜
