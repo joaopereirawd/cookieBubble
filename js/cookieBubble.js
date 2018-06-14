@@ -13,7 +13,7 @@
 
 			//Defaults
 			var settings = $.extend({	
-				icon:'cookie_icon_1',
+				icon:true,
 				iconColor:false,
 				buttonColor:false,
 				buttonTextColor:false,
@@ -51,7 +51,7 @@
 
 				       	switch (cookie_img) {
 				       	   	case 'cookie_icon_1': img_target.prepend(cookie_svg.icon_1); break;	
-				       	   	default: console.log("The icon that you are calling does not exists! Check you settings.icon");	
+				       	   	default: img_target.prepend(cookie_svg.icon_1);
 				                
 				       	}
 		          				
