@@ -1,0 +1,8 @@
+
+node_modules
+.travis.yml
+js/cookieBubble.js
+package.json
+README.md
+yarn-error.log
+yarn.lock
