@@ -73,4 +73,3 @@ buttonRadius:    | *false* | border radius | **Example:**</br> '3px'
 
 You can also change completly the style of cookieBubble directly in The SCSS file or css! You just need to be creative 😋
 
-🔜🔜🔜DOCUMENTATION IN PROGRESS 🔜🔜🔜
