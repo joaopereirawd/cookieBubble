@@ -4,6 +4,9 @@
 # cookieBubble 🍪
 This is the cookieBubble, a jQuery plugin to fight against the ugly cookie messages.</br>
 <a href="https://joaopereirawd.github.io/cookieBubble/" target="blank">Check out the Demo</a>
+<a href="https://codepen.io/joaopereirawd/pen/pKpYpE" target="blank">Codepen</a>
+
+
 ## Instalation
 ```
 npm i cookie-bubble
