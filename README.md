@@ -1,4 +1,4 @@
-<img src="https://github.com/joaopereirawd/cookieBubble/blob/master/img/cookieBubble.gif">
+<img src="https://github.com/joaopereirawd/cookieBubble/blob/master/img/cookieBubble.png">
 
 
 # cookie-bubble 
