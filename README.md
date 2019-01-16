@@ -1,8 +1,8 @@
 <img src="https://github.com/joaopereirawd/cookieBubble/blob/master/img/cookieBubble.gif">
 
 
-# cookieBubble 🍪
-This is the cookieBubble, a jQuery plugin to fight against the ugly cookie messages.</br>
+# cookieBubble 
+The cookieBubble is a jQuery plugin cookie consent and compliance in agreement with EU laws</br>
 <a href="https://joaopereirawd.github.io/cookieBubble/" target="blank">Check out the Demo</a></br>
 <a href="https://codepen.io/joaopereirawd/pen/pKpYpE" target="blank">Codepen</a>
 
