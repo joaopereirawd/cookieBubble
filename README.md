@@ -2,7 +2,7 @@
 
 
 # cookie-bubble 
-The cookieBubble is a jQuery plugin cookie consent and compliance in agreement with EU laws</br>
+The cookieBubble is a cookie consent and compliance jQuery plugin in agreement with EU laws</br>
 <a href="https://joaopereirawd.github.io/cookieBubble/" target="blank">Check out the Demo</a></br>
 <a href="https://codepen.io/joaopereirawd/pen/pKpYpE" target="blank">Codepen</a>
 
