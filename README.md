@@ -13,12 +13,12 @@ npm i cookie-bubble
 or
 yarn add cookie-bubble
 ```
-Include default css 
+Include cookieBubble.min.css somewhere in your head tag 
 ```css
 <link rel="stylesheet" href="path/dist/cookieBubble.min.css"></link>
 ```
 
-Include cookieBubble script 
+Include **cookieBubble.min.js** at the bottom of your body tag
 ```js
 <script src="/path/dist/cookieBubble.min.js"></script>
 ```
@@ -36,9 +36,9 @@ Include cookieBubble script
 ## Options 
 Options | Default |Description | Available Options
 --- | --- | --- | --- 
-cookieMaxAge                | '30'        | Expiring Days| (int)
+cookieMaxAge                | '30'        | Expiring Days| (Number)
 messageText                 | 'We use cookies to personalize your experience. </br>By continuing to visit this website you agree to our use of cookies.'     | 'Your personal message'   | (String)
-messageTextColor            | '#000'                          | Message text color| str, hex, rgb, rgba
+messageTextColor            | '#000'                          | Message text color| hex, rgb, rgba
 messageFontSize             | '18px'                          | Message text font-size      | px, em, rem
 buttonText                  | 'Got it'                        | Button text                 | (String)
 buttonColor                 | '#00a4ff'                       | Button background-color     | hex, rgb, rgba 
