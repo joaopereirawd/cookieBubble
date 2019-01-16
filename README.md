@@ -36,7 +36,7 @@ Include **cookieBubble.min.js** at the bottom of your body tag
 ## Options 
 Options | Default |Description | Available Options
 --- | --- | --- | --- 
-cookieMaxAge                | '30'        | Expiring Days| (Number)
+cookieMaxAge                | 30                              | Expiring Days| (Number)
 messageText                 | 'We use cookies to personalize your experience. </br>By continuing to visit this website you agree to our use of cookies.'     | 'Your personal message'   | (String)
 messageTextColor            | '#000'                          | Message text color| hex, rgb, rgba
 messageFontSize             | '18px'                          | Message text font-size      | px, em, rem
