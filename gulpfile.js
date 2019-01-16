@@ -19,6 +19,7 @@ gulp.task('sass', function() {
     .pipe(minifycss())
     .pipe(size({title: 'css.min'}))
     .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('demo/css'))
 });
 
 
@@ -31,8 +32,8 @@ gulp.task('scripts', function() {
     .pipe(uglify())
     .pipe(size({title: 'js.min'}))
     .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('demo/js'))
 });
-
 
 
 //Watch for changes 
