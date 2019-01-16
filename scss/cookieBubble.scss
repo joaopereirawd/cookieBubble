@@ -9,16 +9,19 @@ $cb_msg_color:#000000;
     background-color: #fff;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
     z-index:9999;
-
-        //From top
+    font-family:sans-serif;
+    
+    //From top
     &.top-left {
         top:10px;
         left: 10px;
     }
+
     &.top-right {
         top:10px;
         right: 0px;
     }
+
     &.top-center {
         top:10px;
         left: calc(100vw - 100vw/2 - 400px/2);
@@ -37,8 +40,6 @@ $cb_msg_color:#000000;
         bottom: 10px;
         left: calc(100vw - 100vw/2 - 400px/2);
     }
-
-
 
     &.show {
         &.top-left,

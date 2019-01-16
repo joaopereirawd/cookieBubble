@@ -6,7 +6,8 @@
   background-color: #fff;
   -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
-  z-index: 9999; }
+  z-index: 9999;
+  font-family: sans-serif; }
   .cookieBubble.top-left {
     top: 10px;
     left: 10px; }
