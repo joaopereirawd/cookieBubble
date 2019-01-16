@@ -1,5 +1,5 @@
 /****************************************
- * cookieBubble.js: Version 1.0
+ * cookieBubble.js: Version 1.1.2
  * author: João Pereira
  * website: http://www.joaopereira.pt
  * email: joaopereirawd@gmail.com
