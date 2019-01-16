@@ -27,7 +27,7 @@ Include **cookieBubble.min.js** at the bottom of your body tag
 ```js
 <script>
     (function ($) {
-            $.cookieBubble();
+        $.cookieBubble();
     })(jQuery);
 </script>
 ```
