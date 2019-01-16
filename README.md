@@ -1,7 +1,7 @@
 <img src="https://github.com/joaopereirawd/cookieBubble/blob/master/img/cookieBubble.gif">
 
 
-# cookieBubble 
+# cookie-bubble 
 The cookieBubble is a jQuery plugin cookie consent and compliance in agreement with EU laws</br>
 <a href="https://joaopereirawd.github.io/cookieBubble/" target="blank">Check out the Demo</a></br>
 <a href="https://codepen.io/joaopereirawd/pen/pKpYpE" target="blank">Codepen</a>
@@ -22,44 +22,13 @@ Include cookieBubble script
 ```js
 <script src="/path/dist/cookieBubble.min.js"></script>
 ```
+
 ## Usage
-Add this html markup somewhere inside the body tag 
-```
-<div class="cookieBubble">
-    <div class="cb-wrapper">
-        <div class="cb-row">
-            <div class="cb-message">
-                <span>We use cookies to personalize your experience. By continuing to visit this website you agree to our use of cookies. <a href="#" target="_blank">Learn More</a></span> 
-                <a href="javascript:void(0)" class="gotit-btn">GOT IT!</a>
-            </div>
-        </div>
-    </div>
-</div>  
-
-```
-
-Basic init
 ```js
 <script>
-    $(document).ready(function(){
-        $('.cookieBubble').cookieBubble();
-    });
-</script>
-```
-
-Advanced init
-```js
-<script>
-    $(document).ready(function(){
-        $('.cookieBubble').cookieBubble(
-            {
-               cookieMaxAge:7, 
-               iconColor:'#ffa500', 
-               buttonColor: '#000',
-               buttonRadius:'3px'
-            }
-        );
-    });
+    (function ($) {
+            $.cookieBubble();
+    })(jQuery);
 </script>
 ```
 
@@ -67,12 +36,22 @@ Advanced init
 ## Options 
 Options | Default |Description | Available Options
 --- | --- | --- | --- 
-cookieMaxAge:    | *30*      | Expiring Days| whatever you want
-icon:            | *true*  | Chose your cookie icon  | true or false</br>  **More icons is comming 🚀**
-iconColor:       | *false* | specify what the color you want | **Example:**</br> orange', '#ffa500'
-buttonColor:     | *false* | specify what the color you want | **Example:**</br>'orange', '#ffa500'
-buttonTextColor: | *false* | specify what the color you want  | **Example:**</br>'white', '#ffffff'
-buttonRadius:    | *false* | border radius | **Example:**</br> '3px'
+cookieMaxAge                | '30'        | Expiring Days| (int)
+messageText                 | 'We use cookies to personalize your experience. </br>By continuing to visit this website you agree to our use of cookies.'     | 'Your personal message'   | (String)
+messageTextColor            | '#000'                          | Message text color| str, hex, rgb, rgba
+messageFontSize             | '18px'                          | Message text font-size      | px, em, rem
+buttonText                  | 'Got it'                        | Button text                 | (String)
+buttonColor                 | '#00a4ff'                       | Button background-color     | hex, rgb, rgba 
+buttonFontSize              | '18px'                          | Button text font-size       | px, em, rem 
+iconColor                   | '#00a4ff'                       | Icon color                  | hex, rgb, rgba
+iconVisibility              | true                            | Icon Visibility             | (Bool)
+cookiePolicyButtonText      | 'Read Our Cookie Policy'        | Cookie policy button text   | (String)
+cookiePolicyButtonTextColor | '#000'                          | Cookie policy button color  | hex, rgb, rgba
+cookiePolicyButtonUrl       | 'http://allaboutcookies.org/'   | Cookie policy page url      | url
+cookiePolicyButtonTarget    | '_blank'                        | Cookie policy target        | _self
+boxAppearDelay              | 1000                            | Delay time (ms)             | (Number)
+    
 
-You can also change completly the style of cookieBubble directly in The SCSS file or css! You just need to be creative 😋
+ 
+ 
 
