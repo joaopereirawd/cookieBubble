@@ -1,4 +1,4 @@
 # cookie-bubble 
-**This project was moved to [https://cookiebubble.netlify.com/](https://cookiebubble.netlify.com/)**
+**This project was moved to [https://github.com/CookieBubble/jquery-cookie-bubble](https://github.com/CookieBubble/jquery-cookie-bubble)**
 
 
